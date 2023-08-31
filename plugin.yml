@@ -1,0 +1,37 @@
+main: com.epic.epicpl.EpicPl
+version: 1.0.8-SNAPSHOT-RZDU
+name: epicpl
+
+commands:
+  epicpl:
+    description: El comando principal del plugin.
+  spawn:
+    description: Ir al spawn.
+  dev: 
+    description: Ir al spawn dev.
+  evento: 
+    description: Ir al spawn dev.
+  hammerban:
+    description: Martillo de baneo.
+    usage: hammerban
+permissions:
+    epicpl.*:
+        description: Acceso a todos los comandos del plugin.
+    epicpl.dev:
+        description: Acceso al spawn dev.
+        default: op
+    epicpl.setspawn:
+      description: Cambiar spawn.
+      default: op
+    epicpl.setdev:
+      description: Cambiar spawn dev.
+      default: op
+    epicpl.setevent:
+      description: Cambiar spawn de eventos.
+      default: op
+    epicpl.event:
+      description: Ir al spawn de eventos.
+      default: op
+    epicpl.reload:
+      description: reload.
+      default: op
